@@ -157,7 +157,7 @@ class Runner:
                     command = valid_response["command"]
                     response = valid_response["response"]
                     
-                    ProjectManager().add_message_from_devika(project_name, response)
+                    ProjectManager().add_message_from_amaira(project_name, response)
                     
                     command_set = command.split(" ")
                     command_failed = False
@@ -186,7 +186,7 @@ class Runner:
                 elif action == "patch":
                     response = valid_response["response"]
                     
-                    ProjectManager().add_message_from_devika(project_name, response)
+                    ProjectManager().add_message_from_amaira(project_name, response)
                     
                     code = Patcher(base_model=self.base_model).execute(
                         conversation=conversation,

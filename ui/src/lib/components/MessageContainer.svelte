@@ -23,10 +23,10 @@
   <div class="flex flex-col px-2 divide-y-2">
     {#each $messages as message}
       <div class="flex items-start px-2 py-4 gap-2">
-        {#if message.from_devika}
+        {#if message.from_amaira}
           <img
-            src="/assets/devika-avatar.png"
-            alt="Devika's Avatar"
+            src="/assets/amaira-avatar.png"
+            alt="Amaira's Avatar"
             class="avatar rounded-full flex-shrink-0"
             style="width: 40px; height: 40px;"
           />
@@ -40,10 +40,10 @@
         {/if}
         <div class="flex flex-col w-full">
           <p class="text-xs text-gray-400">
-            {message.from_devika ? "Devika" : "You"}
+            {message.from_amaira ? "Amaira" : "You"}
             <span class="timestamp">{new Date(message.timestamp).toLocaleTimeString()}</span>
           </p>
-          {#if message.from_devika && message.message.startsWith("{")}
+          {#if message.from_amaira && message.message.startsWith("{")}
             <div class="flex flex-col gap-5 w-full" contenteditable="false">
               {@html `<strong>Here's my step-by-step plan:</strong>`}
               <div class="flex flex-col gap-3">

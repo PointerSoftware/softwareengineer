@@ -6,8 +6,8 @@
 # eventlet.monkey_patch()
 from gevent import monkey
 monkey.patch_all()
-from src.init import init_devika
-init_devika()
+from src.init import init_amaira
+init_amaira()
 
 
 from flask import Flask, request, jsonify, send_file
@@ -85,7 +85,7 @@ def handle_message(data):
     if action == 'continue':
         new_message = manager.new_message()
         new_message['message'] = message
-        new_message['from_devika'] = False
+        new_message['from_amaira'] = False
         manager.add_message_from_user(project_name, new_message['message'])
 
         if AgentState.is_agent_completed(project_name):
@@ -197,5 +197,5 @@ def get_settings():
 
 
 if __name__ == "__main__":
-    logger.info("Devika is up and running!")
+    logger.info("Amaira is up and running!")
     socketio.run(app, debug=False, port=1337, host="0.0.0.0")
