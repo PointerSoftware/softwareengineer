@@ -4,7 +4,6 @@
 
 <h1 align="center">🚀 Amaira - Agentic AI Software Engineer 👩‍💻</h1>
 
-![amaira screenshot](.assets/amaira-screenshot.png)
 
 > [!IMPORTANT]  
 > This project is currently in a very early development/experimental stage. There are a lot of unimplemented/broken features at the moment. Contributions are welcome to help out with the progress!
@@ -36,10 +35,6 @@ Amaira aims to revolutionize the way we build software by providing an AI pair p
 > [!NOTE]
 > Amaira is modeled after [Devin](https://www.cognition-labs.com/introducing-devin) by Cognition AI. This project aims to be an open-source alternative to Devin with an "overly ambitious" goal to meet the same score as Devin in the [SWE-bench](https://www.swebench.com/) Benchmarks... and eventually beat it?
 
-## Demos
-
-https://github.com/stitionai/amaira/assets/26198477/cfed6945-d53b-4189-9fbe-669690204206
-
 ## Key Features
 
 - 🤖 Supports **Claude 3**, **GPT-4**, **GPT-3.5**, and **Local LLMs** via [Ollama](https://ollama.com). For optimal performance: Use the **Claude 3** family of models.
@@ -66,7 +61,6 @@ Amaira's system architecture consists of the following key components:
 8. **Knowledge Base**: Stores and retrieves project-specific information, code snippets, and learned knowledge for efficient access.
 9. **Database**: Persists project data, agent states, and configuration settings.
 
-Read [**ARCHITECTURE.md**](https://github.com/stitionai/amaira/blob/main/ARCHITECTURE.md) for the detailed documentation.
 
 ## Quick Start
 
@@ -232,15 +226,7 @@ Amaira's code writing module generates code based on the plan, research findings
 
 Amaira's code writing capabilities enable it to generate functional and efficient code in various programming languages, taking into account the specific requirements and context of each project.
 
-# Community Discord Server
 
-We have a Discord server for the Amaira community, where you can connect with other users, share your experiences, ask questions, and collaborate on the project. To join the server, please follow these guidelines:
-
-- Be respectful: Treat all members of the community with kindness and respect. Harassment, hate speech, and other forms of inappropriate behavior will not be tolerated.
-- Contribute positively: Share your ideas, insights, and feedback to help improve Amaira. Offer assistance to other community members when possible.
-- Maintain privacy: Respect the privacy of others and do not share personal information without their consent.
-
-To join the Amaira community Discord server, [click here](https://discord.gg/CYRp43878y).
 
 ## Contributing
 
@@ -250,17 +236,7 @@ We welcome contributions to enhance Amaira's capabilities and improve its perfor
 
 Amaira is released under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more information.
 
-## Star History
 
-<div align="center">
-<a href="https://star-history.com/#stitionai/amaira&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=stitionai/amaira&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=stitionai/amaira&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=stitionai/amaira&type=Date" />
- </picture>
-</a>
-</div>
 
 ---
 
